@@ -150,4 +150,3 @@ private:
   uint64_t m_TotalSamples = 0;
   std::string m_Description;
 };
-
