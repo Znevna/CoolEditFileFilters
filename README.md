@@ -6,7 +6,7 @@ They may also work with very early versions of Adobe Audition.
 
 Usage
 -----
-Extract the contents of this archive into the Cool Edit application folder.
+Extract the contents of the latest release into the Cool Edit application folder.
 
 The following file filters are included:
 - flac.flt - Free Lossless Audio Codec (read/write)
