@@ -9,10 +9,10 @@ Usage
 Extract the contents of this archive into the Cool Edit application folder.
 
 The following file filters are included:
-flac.flt	Free Lossless Audio Codec (read/write)
-opus.flt	Opus Audio Codec (read/write)
-ffmpeg.flt	FFmpeg (read only)
-openmpt.flt	Tracker formats (MOD, XM, IT, etc.) via libopenmpt (read only)
+- flac.flt - Free Lossless Audio Codec (read/write)
+- opus.flt - Opus Audio Codec (read/write)
+- ffmpeg.flt - FFmpeg (read only)
+- openmpt.flt - Tracker formats (MOD, XM, IT, etc.) via libopenmpt (read only)
 
 The FFmpeg filter should read just about any audio/video file format.
 For video files, the default audio track will be read.
