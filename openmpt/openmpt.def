@@ -1,0 +1,13 @@
+LIBRARY openmpt
+
+EXPORTS
+	QueryCoolFilter
+	FilterUnderstandsFormat
+	OpenFilterInput
+	FilterGetFileSize
+	ReadFilterInput
+	CloseFilterInput
+	FilterOptionsString
+	FilterOptions
+	FilterGetOptions
+  FilterSetOptions

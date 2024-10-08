@@ -1,0 +1,10 @@
+LIBRARY ffmpeg
+
+EXPORTS
+	QueryCoolFilter
+	FilterUnderstandsFormat
+	OpenFilterInput
+	FilterGetFileSize
+	ReadFilterInput
+	CloseFilterInput
+	FilterOptionsString
