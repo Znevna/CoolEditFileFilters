@@ -16,7 +16,7 @@ The following file filters are included:
 
 The FFmpeg filter should read just about any audio/video file format.
 For video files, the default audio track will be read.
-Note that the FFmpeg filter is dependent on additional .dll files (included).
+Note that the FFmpeg filter is dependent on additional .dll files (included in the latest release).
 
 
 Credits
