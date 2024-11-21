@@ -3,9 +3,7 @@ Cool Edit File Filters
 Various file filters for the ancient, but still excellent, Cool Edit 2000 application.
 They may also work with very early versions of Adobe Audition.
 
-Usage
------
-Extract the contents of the latest release into the Cool Edit application folder.
+The latest release can be found at https://github.com/jfchapman/CoolEditFileFilters/releases/latest
 
 The following file filters are included:
 - flac.flt - Free Lossless Audio Codec (read/write)
@@ -15,7 +13,7 @@ The following file filters are included:
 
 The FFmpeg filter should read just about any audio/video file format.
 For video files, the default audio track will be read.
-Note that the FFmpeg filter is dependent on additional .dll files (included in the latest release).
+
 
 Credits
 -------
@@ -35,6 +33,7 @@ https://lib.openmpt.org/libopenmpt/
 
 JSON for Modern C++ is copyright (c) 2013-2024 Niels Lohmann
 https://github.com/nlohmann/json
+
 
 License
 -------
