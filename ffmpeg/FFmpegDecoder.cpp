@@ -37,11 +37,12 @@ FFmpegDecoder::FFmpegDecoder( const std::string& filename )
                 const double duration = ( stream->duration > 0 ) ? ( stream->duration * av_q2d( stream->time_base ) ) : ( static_cast<double>( m_FormatContext->duration ) / AV_TIME_BASE );
                 m_TotalSamples = static_cast<uint64_t>( std::llround( duration * m_SampleRate ) );
 
-                switch ( codecParams->bits_per_coded_sample ) {
+                const int bitsPerSample = std::max( codecParams->bits_per_coded_sample, codecParams->bits_per_raw_sample );
+                switch ( bitsPerSample ) {
                   case 8:
                   case 16:
                   case 32:
-                    m_BitsPerSample = codecParams->bits_per_coded_sample;
+                    m_BitsPerSample = bitsPerSample;
                     break;
                   default:
                     m_BitsPerSample = 32;
